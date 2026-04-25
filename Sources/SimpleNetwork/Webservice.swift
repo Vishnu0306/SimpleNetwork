@@ -10,7 +10,6 @@ import Foundation
 public enum NetworkError: Error {
     case badRequest
     case decodingError
-    case none
 }
 
 public class webservice{
