@@ -12,7 +12,7 @@ public enum NetworkError: Error {
     case decodingError
 }
 
-public class webservice{
+public class WebService{
     
     public init(){}
     
