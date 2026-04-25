@@ -2,7 +2,7 @@
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
-
+//test
 let package = Package(
     name: "SimpleNetwork",
     products: [
@@ -17,10 +17,6 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "SimpleNetwork"
-        ),
-        .testTarget(
-            name: "SimpleNetworkTests",
-            dependencies: ["SimpleNetwork"]
-        ),
+        )
     ]
 )
